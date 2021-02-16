@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096485761908",
+    "project_id": "pqt-deep-blue-2f90f",
+    "storage_bucket": "pqt-deep-blue-2f90f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096485761908:android:be4b27b29286796d09b221",
+        "android_client_info": {
+          "package_name": "com.example.pqt_third"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096485761908-iadjlqtsg4jo2g77e8orj3vt1oqp7gm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpqi_DWzpBpx2s5NsKG7EFu0_8yxg49hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096485761908-iadjlqtsg4jo2g77e8orj3vt1oqp7gm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
