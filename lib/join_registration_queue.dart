@@ -9,14 +9,14 @@ class JoinRegistration extends StatefulWidget {
 }
 
 class _JoinRegistrationState extends State<JoinRegistration> {
-  void navigate(BuildContext context) {
+  void navigate(BuildContext context) async{
     var reference = Documents();
-    int count = reference.getNumber();
-    print(count);
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => PredictRegistration()),
-    );
+    int count = await reference.getNumber();
+    print("In navigate method  $count");
+     Navigator.push(
+       context,
+       MaterialPageRoute(builder: (context) => PredictRegistration()),
+     );
   }
 
   @override
